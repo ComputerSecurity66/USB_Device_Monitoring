@@ -1123,6 +1123,18 @@ explicitly authorized in writing by the copyright holder.
 See the `LICENSE` file for the complete license terms.
 
 ---
+# 📩 Want to Modify or Develop This Project?
+
+If you would like to **modify the source code, develop new features, create an extension, integrate this project into another application, or work on further development**, please contact me first.
+
+I am open to discussing authorized development, collaboration, feature development, and licensing opportunities.
+
+**Please obtain written permission before modifying, redistributing, publishing, or commercially using the source code.**
+
+> 🔒 This project is proprietary software and is **not open source**. Public access to the GitHub repository does not grant permission to modify or redistribute the source code.
+
+**Copyright © 2026 VALOR. All Rights Reserved.**
+----
 
 # 🤝 Contributing
 
