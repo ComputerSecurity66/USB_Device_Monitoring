@@ -765,6 +765,76 @@ Only use YARA rules that you trust and understand.
 
 ---
 
+# 🔎 Optional Advanced USB Monitoring — USBDeview
+
+For additional USB device history and monitoring information, users may also use **USBDeview** by **NirSoft**.
+
+USBDeview is a Windows utility that displays information about USB devices currently connected to the computer and USB devices that were previously connected to the system.
+
+### USBDeview can provide information such as:
+
+* USB device name
+* Description
+* Device type
+* Connected status
+* Vendor ID (VID)
+* Product ID (PID)
+* Serial number
+* Device instance ID
+* USB device connection history
+* First connection time
+* Last connection time
+* Device driver information
+* USB hub information
+* Additional USB device properties
+
+This can be useful as a **supplementary USB investigation and verification tool** alongside the Enhanced USB Threat Detection & Behavior Analysis Tool.
+
+### Download USBDeview
+
+**Official NirSoft website:**
+
+https://www.nirsoft.net/utils/usb_devices_view.html
+
+> **Important:** USBDeview is developed and distributed by NirSoft and is not part of this project. The project does not modify, redistribute, or claim ownership of USBDeview.
+
+Users should download USBDeview directly from the **official NirSoft website** and review the software documentation and licensing information before use.
+
+### Suggested Investigation Workflow
+
+USBDeview can be used as an additional source of USB device information:
+
+```text
+Enhanced USB Threat Detection
+            │
+            ├── USB Device Inventory
+            ├── USB File Analysis
+            ├── Process / Network Correlation
+            ├── Windows Event Analysis
+            ├── BadUSB / HID Assessment
+            └── Threat Reporting
+                     │
+                     ▼
+              USB Investigation
+                     │
+                     └── USBDeview
+                           │
+                           ├── Current USB Devices
+                           ├── Previously Connected Devices
+                           ├── VID / PID
+                           ├── Serial Information
+                           └── Connection History
+```
+
+USBDeview results should be treated as **supplementary evidence**. Device presence, connection history, VID/PID information, or other USB metadata does not by itself establish that a device is malicious.
+
+### Official Download
+
+Use the following official NirSoft page to obtain USBDeview:
+
+https://www.nirsoft.net/utils/usb_devices_view.html
+
+
 # 📁 Suggested Project Structure
 
 ```text
@@ -981,27 +1051,6 @@ Event availability depends on Windows configuration, audit policies, logging sta
 
 ---
 
-# 🔐 Recommended Defensive Architecture
-
-For a production security solution, this project should be used alongside established security controls such as:
-
-* Microsoft Defender Antivirus
-* Microsoft Defender for Endpoint
-* Windows Firewall
-* Attack Surface Reduction rules
-* Device Control policies
-* Application Control
-* WDAC
-* AppLocker
-* Enterprise EDR/XDR
-* Centralized Windows Event Collection
-* SIEM monitoring
-* Network security monitoring
-
-The application can serve as an additional local assessment and investigation utility.
-
----
-
 # 📊 Technology Stack
 
 | Component           | Technology                         |
@@ -1060,17 +1109,18 @@ The purpose is to provide **multiple sources of evidence** that can assist with 
 
 # 📄 License
 
-Add your preferred license before publishing the repository.
+## License
 
-For example:
+**Computer Security Latest Proprietary License**
+**Copyright © 2026 VALOR. All Rights Reserved.**
 
-```text
-MIT License
-```
+This project is proprietary software and is not open source.
 
-or another license appropriate for your project.
+Use, copying, modification, redistribution, publication, sublicensing,
+commercial use, and creation of derivative works are prohibited unless
+explicitly authorized in writing by the copyright holder.
 
-Do not claim a license that has not actually been added to the repository.
+See the `LICENSE` file for the complete license terms.
 
 ---
 
