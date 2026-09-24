@@ -1002,40 +1002,6 @@ The application can serve as an additional local assessment and investigation ut
 
 ---
 
-# 🧪 Development Roadmap
-
-Potential future improvements include:
-
-* [ ] Improved USB device persistence
-* [ ] USB device fingerprinting
-* [ ] Digital signature verification
-* [ ] Authenticode certificate inspection
-* [ ] PE header analysis
-* [ ] Import/export analysis
-* [ ] Hash calculation
-* [ ] SHA-256 reputation workflow
-* [ ] Improved ML.NET training dataset
-* [ ] Model evaluation metrics
-* [ ] YARA rule management
-* [ ] Automatic rule categorization
-* [ ] Windows Defender integration
-* [ ] Windows Defender scan integration
-* [ ] Process tree visualization
-* [ ] Improved network process correlation
-* [ ] USB event timeline
-* [ ] JSON report output
-* [ ] CSV report output
-* [ ] HTML security reports
-* [ ] Centralized logging
-* [ ] Configurable detection thresholds
-* [ ] Configurable quarantine policy
-* [ ] USB allowlist/blocklist
-* [ ] Device fingerprint database
-* [ ] Improved BadUSB/HID behavioral analysis
-* [ ] Digital forensic timeline generation
-
----
-
 # 📊 Technology Stack
 
 | Component           | Technology                         |
